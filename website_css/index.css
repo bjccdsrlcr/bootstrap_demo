@@ -1,0 +1,103 @@
+.navbar-brand{
+	padding: 0px;
+}
+.navbar-brand img{
+	height: 50px;
+}
+.bj-big-title{
+	font-size: 38px;
+	text-align: center;
+	color: #50285f!important;
+}
+.jumbotron .bj-big-title-desc{
+	text-align: center;
+}
+.bundle-wrapper{
+	border:2px solid #d6d6e4; 
+	text-align: center;
+	transition: all .30s ease-in-out .2s;
+	margin-top: 20px;
+}
+.bundle-wrapper:hover{
+	border:2px solid #50285f; 
+
+	transform: scale(1.2);
+}
+.bundle-wrapper hr{
+	border-top: 2px solid #ffbd2b;
+	width: 140px;
+}
+.bundle-wrapper h4{
+	font-family: cursive;
+}
+.top lead{
+	font-size: 15px;
+	font-family: cursive;
+}
+.specs{
+	margin-top: 3px;
+}
+.mmr-number{
+	margin-top: 3px;
+	font-family: fantasy;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.teams .logos {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.teams .logos .logos-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.teams .logos .logos-row .logo {
+    float: left;
+    width: 33%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    min-height: 100px;
+    line-height: 100px;
+}
+.teams .logos .logos-row .logo img {
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 200px;
+    margin: 40px auto;
+    vertical-align: middle;
+    border: 0;
+}
+.logo-block{
+	margin-top: 100px;
+}
+.logo{
+	height: 100px;
+}
+.bj-footer{
+	margin-top: 100px;
+	background-color: #eee;
+}
+.footer-ul{
+	margin-top: 50px;
+}
+.footer-ul h5{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer-ul li{
+	margin-top: 10px;
+	list-style: none;
+}
+.footer-ul a{
+	font-size: 18px;
+	
+}
