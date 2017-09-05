@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+.jumbotron{
+    /*background-image: url("F:/Git/git_project/bootstrap_demo/img/background.jpg");*/
+    background: rgb(33, 33, 33);
+    text-align: center;
+}
+.jumbotron p{
+    color: white;
+}
+.dota-title{
+    margin-top: 20px;
+}
+.dota-title ul li{
+    display: inline;
+    list-style: none;
+    float: left;
+}
+.dota-title ul li span{
+    color: white;
+    margin-right: 10px;
+
+}
+.dota-title ul li a{
+    border:1px solid black;
+    padding:8px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    text-decoration: none;
+
+}
+.dota-title ul li a:hover{
+    background-color: rgb(71, 28, 27);
+
+}
+.dota-summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(25, 25, 25);
+    align-items: center;
+    margin-top: 7px;
+}
+.dota-summary p{
+    font-weight: bold;
+}
+.detail-list{
+    margin-top: 40px;
+}
+
+.detail-list  p{
+    color: white;
+}
+
+
+.detail-list table tr:nth-child(odd){
+    background-color: rgb(20, 20, 20);
+}
+
+.detail-list table tr:nth-child(even){
+    background-color: rgb(33, 33, 33);
+}
+
+.detail-list table tr:hover{
+    background-color: rgb(17, 33, 47);
+}
+
+
+.detail-list table tr th{
+    color: white;
+    font-weight:bold;
+    background-color: rgb(12, 12, 12);
+    border: none;
+}
+.detail-list table tr td{
+    border: none;
+    vertical-align: middle;
+    color: white;
+    padding: 3px 10px 0px 10px;
+}
+#cavans-list table tr td{
+    padding:20px;
+}
+.detail-list .progress{
+    height: 7px;
+    vertical-align: middle;
+}
+

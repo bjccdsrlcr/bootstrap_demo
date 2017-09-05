@@ -1,0 +1,78 @@
+
+.container {
+	border:1px solid blue;
+}
+.container h1{
+	background: rgb(217, 217, 217);
+	text-align: center;
+	padding: 20px;
+}
+
+.person{
+	border: 2px solid rgb(217, 217, 217);
+}
+.person h1{
+	background-color: rgb(217, 217, 217);
+	text-align: center;
+	padding: 20px;
+	margin-top: 0px;
+}
+.person .base-info-img img{
+	width: 130px;
+	height: 200px;
+
+}
+
+/* .base-info-img{
+	padding-left: 0px;
+	padding-right: 0px;
+} */
+.base-info tbody tr td{
+	font-size: 16px;
+}
+.base-info tbody tr td:first-child{
+	font-weight: bold;
+}
+
+/* #base-info1{
+	padding-right: 0px;
+}
+
+#base-info2{
+	padding-left: 0px;
+}
+ */
+
+
+
+.education h4{
+	padding: 10px;
+	font-weight: bold;
+	border: 1px solid grey;
+}
+
+.education p{
+	padding: 10px;
+}
+
+.title{
+	background: rgb(217, 217, 217);
+}
+.title span{
+	display: inline-block;
+	width: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	background-color: rgb(65, 65, 65);
+}
+.content{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: grey;
+}
